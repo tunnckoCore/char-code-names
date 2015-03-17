@@ -14,10 +14,20 @@ npm test
 
 ```js
 var charCodeNames = require('char-code-names');
+
+charCodeNames(42);   //=> ['star','asterisk'],
+charCodeNames(44);   //=> ['comma']
+charCodeNames('59'); //=> ['semicolon','semi-colon','semi colon']
+charCodeNames();
+//=> {
+  '32': ['space'],
+  '33': ['negate','exclam','exclamation','exclamation mark','exclam mark'],
+  '34': ['double','doublequote','double-quote','double quote'],
+  '35': ['hash','number','hash sign','number sign'],
+  '36': ['dollar','dollar sign']
+  ...
+}
 ```
-
-
-## API / CLI
 
 
 ## Author
