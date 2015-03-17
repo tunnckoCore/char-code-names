@@ -20,13 +20,13 @@ charCodeNames(44);   //=> ['comma']
 charCodeNames('59'); //=> ['semicolon','semi-colon','semi colon']
 charCodeNames();
 //=> {
-  '32': ['space'],
-  '33': ['negate','exclam','exclamation','exclamation mark','exclam mark'],
-  '34': ['double','doublequote','double-quote','double quote'],
-  '35': ['hash','number','hash sign','number sign'],
-  '36': ['dollar','dollar sign']
-  ...
-}
+//  '32': ['space'],
+//  '33': ['negate','exclam','exclamation','exclamation mark','exclam mark'],
+//  '34': ['double','doublequote','double-quote','double quote'],
+//  '35': ['hash','number','hash sign','number sign'],
+//  '36': ['dollar','dollar sign']
+//  ...
+//}
 ```
 
 
@@ -57,7 +57,7 @@ Released under the [`MIT`][license-url] license.
 [travis-img]: https://img.shields.io/travis/tunnckoCore/char-code-names.svg?style=flat
 
 [daviddm-url]: https://david-dm.org/tunnckoCore/char-code-names
-[daviddm-img]: https://img.shields.io/david/tunnckoCore/char-code-names.svg?style=flat
+[daviddm-img]: https://img.shields.io/david/dev/tunnckoCore/char-code-names.svg?style=flat
 
 [author-gratipay]: https://gratipay.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
