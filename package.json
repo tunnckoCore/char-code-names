@@ -1,6 +1,6 @@
 {
   "name": "char-code-names",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Common used char codes and their common used names as json object",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
