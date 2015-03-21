@@ -1,5 +1,9 @@
 
 
+## v1.0.2 / March 21, 2015
+- Release v1.0.2 / npm@v1.0.2
+- migrate to `lab`
+
 ## v1.0.1 / March 17, 2015
 - Release v1.0.1 / npm@v1.0.1
 - update deps

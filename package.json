@@ -1,6 +1,6 @@
 {
   "name": "char-code-names",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common used char codes and their common used names as json object",
   "scripts": {
     "test": "lab -cvL test.js",
