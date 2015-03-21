@@ -3,10 +3,8 @@
   "version": "1.0.1",
   "description": "Common used char codes and their common used names as json object",
   "scripts": {
-    "lint": "jshint index.js && jscs index.js --reporter inline",
-    "test": "mocha",
-    "test-cov": "istanbul cover _mocha",
-    "test-travis": "istanbul cover _mocha --report lcovonly"
+    "test": "lab -cvL test.js",
+    "test-travis": "lab -cvL test.js && lab -r lcov -o ./coverage/lcov.info test.js"
   },
   "author": {
     "name": "Charlike Mike Reagent",
@@ -40,8 +38,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "~2.2.1",
     "for-in": "~0.1.3",
-    "istanbul-harmony": "~0.3.1"
+    "lab": "^5.5.0"
   }
 }
